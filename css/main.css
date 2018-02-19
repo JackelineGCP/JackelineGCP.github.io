@@ -1,8 +1,8 @@
-/*html {
+html {
   padding: 0;
   margin: 0;
   position: relative;
-}*/
+}
 
 body {
   font: 18px "Montserrat", sans-serif;
@@ -10,12 +10,11 @@ body {
   color: grey;
 }
 
-/* @media(min-width:768px) {
+@media(min-width:768px) {
   html,
   body {
-  
     height: 100%;
-  } */
+  } 
 }
 
 #wrapper {
@@ -138,7 +137,7 @@ body {
 .jumbotron {
   width: 100%;
   margin: 0;
-  background-image: url(https://freestocks.org/fs/wp-content/uploads/2016/12/iphone_iwatch_and_macbook_2-800x533.jpg);
+  background-image: url(https://content-static.upwork.com/blog/uploads/sites/3/2017/02/24172515/Frontend-vs-backend-940x400-940x400.jpg);
 }
 
 .jumbotron .container {
