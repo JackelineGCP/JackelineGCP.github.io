@@ -17,239 +17,217 @@
   <title>Gessenia Canales</title>
 </head>
 
-<body class="text-center" data-spy="scroll" data-target=".navbar" data-offset="180">
-  <div id="#wrapper" class="">
-    <!-- navbar -->
+<body data-spy="scroll" data-offset="180">
+  <!-- Header -->
+  <header>
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container">
+      <div class="container-fluid">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="toggled" data-target="#wrapper">
-            <i class="fa fa-bars"></i>
+          <button type="button" class="navbar-toggle pull-left button-burger" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="https://jackelinegcp.github.io/" target="_blank" title="Check out my site"> Gessenia
+          <a class="navbar-brand" href="https://jackelinegcp.github.io/" target="_blank">Gessenia
             <i class="fas fa-file-code"></i>
           </a>
         </div>
-        <div class="collapse navbar-collapse">
-          <div class="container">
-            <ul class="nav navbar-nav navbar-right">
-              <li>
-                <a href="#home">Home</a>
-              </li>
-              <li>
-                <a href="#about">About me</a>
-              </li>
-              <li>
-                <a href="#proyects">Proyect</a>
-              </li>
-              <li>
-                <a href="#contact">Contact me</a>
-              </li>
-            </ul>
-          </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right navbar-options">
+            <li>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="#about">About me</a>
+            </li>
+            <li>
+              <a href="#skills">Skills</a>
+            </li>
+            <li>
+              <a href="#proyects">Proyects</a>
+            </li>
+            <li>
+              <a href="#contact">Contact me</a>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
-
-    <div id="nav-side-wrapper">
-      <div class="container">
-        <ul class="nav-side">
-          <li>
-            <a href="#home">Home</a>
-          </li>
-          <li>
-            <a href="#about">About</a>
-          </li>
-          <li>
-            <a href="#portfolio">Portfolio</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
+  </header>
+  <!---->
+  <section id="home" class="jumbotron vertical-centre bgd shadow" data-speed="5" data-type="background">
+    <div class="container-fluid">
+      <h1 class="text-center">My name is Gessenia.</h1>
+      <h2 class="text-center">I'am a Front-end developer </h2>
+      <p class="text-center">
+        <a href="https://twitter.com/GesseniaPerez?lang=es" target="_blank" title="Twitter profile" class="btn btn-default btn-lg">
+          <i class="fab fa-twitter fa-1x"></i> GesseniaPerez
+        </a>
+        <a href="https://www.linkedin.com/in/gesseniacanalesperez/" target="_blank" title="LinkedIn profile" class="btn btn-default btn-lg">
+          <i class="fab fa-linkedin fa-1x"></i> LinkedIn
+        </a>
+        <a href="https://github.com/JackelineGCP" target="_blank" title="GitHub profile" class="btn btn-default btn-lg">
+          <i class="fab fa-github fa-1x"></i> GitHub
+        </a>
+      </p>
+    </div>
+  </section>
+  <!-- section about -->
+  <section id="about" class="container bgd shadow" data-speed="5" data-type="background">
+    <div class="row">
+      <h1 class="text-center page-header">About me</h1>
+      <div class="col-sm-12 col-md-6">
+        <figure>
+          <img class="img-responsive thumbnail img-thumbnail" src="assets/images/gessenia.jpg" alt="gessenia">
+        </figure>
+      </div>
+      <div class="col-sm-12 col-md-6">
+        <p class="about-me">Hello, I am a Front-end developer of Laboratoria and a Computer Scientist of National University of San Marcos, Lima-Peru.
+          I like to merge the expertise of both professions to provide the simplest solutions for complex problems. Recently,
+          I am very interested in the development of mobile apps that can be used to challenge the problems of most disadvantaged
+          sectors in my country, mainly health and education. When I'm not programming, I like traveling and spending time
+          with Percy (my partner) and César Fernando, my sweet little son. </p>
       </div>
     </div>
-    <!-- 
-    <div id="content-wrapper"> -->
-    <!-- front page -->
-    <section id="home" class="jumbotron vertical-centre bgd shadow" data-speed="5" data-type="background">
-      <div class="container-fluid">
-        <h1>My name is Gessenia.</h1>
-        <h2>I'am Front-end developer </h2>
-        <p>
-          <a href="https://twitter.com/GesseniaPerez?lang=es" target="_blank" title="Twitter profile" class="btn btn-default btn-lg">
-            <i class="fab fa-twitter fa-1x"></i> GesseniaPerez
-          </a>
-          <a href="https://www.linkedin.com/in/gesseniacanalesperez/" target="_blank" title="LinkedIn profile"
-            class="btn btn-default btn-lg">
-            <i class="fab fa-linkedin fa-1x"></i> LinkedIn
-          </a>
-          <a href="https://github.com/JackelineGCP" target="_blank" title="GitHub profile" class="btn btn-default btn-lg">
-            <i class="fab fa-github fa-1x"></i> GitHub
-          </a>
-        </p>
-      </div>
-    </section>
+  </section>
 
-    <!-- about -->
-    <section id="about" class="container-fluid">
-      <div class="row img-about-me">
-        <h1 class="page-header">About me</h1>
-        <div class="col-sm-12 col-md-6">
-          <figure>
-            <img class="img-responsive img-thumbnail gesseniaPhoto" src="assets/images/gessenia.jpg" alt="gessenia">
-          </figure>
-        </div>
-
-        <div class="col-sm-12 col-md-6">
-          <p class="about-me">Hola, soy desarrolladora Front-end de Laboratoria y profesional de Computación Científica por la Universidad Nacional
-            Mayor de San Marcos. Trato de combinar lo aprendido en ambas profesiones para brindar soluciones sencillas a
-            problemas complejos. Mi más reciente interés radica en el desarrollo de aplicativos móviles que puedan ser utilizados
-            para enfrentar problemas de sectores desfavorecidos como salud y educación. Cuando no estoy programando, me gusta
-            viajar y pasar tiempo con Percy (mi pareja) y César Fernando (mi hijo), el engreído de la casa. </p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Featured work -->
-    <section id="work" class="featured-work">
-      <!-- The title -->
+  <section id="skills" class="skill-section content-section text-center bgd shadow" data-speed="5" data-type="background">
+    <div class="container">
       <div class="row">
-        <div class="twelve columns title">
-          <h1>My Skills</h1>
-          <hr>
-          <div class="col-xs-8 col-xs-offset-2 col-md-9 col-md-offset-1.5 ">
-            <div>
-              <div>
-                <p>HTML5</p>
-                <i class="fab fa-html5 fa-3x"></i>
-              </div>
-              <div class="progress style-prog">
-                <div class="progress-bar-striped barra" role="progressbar" style="width: 75%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">75%</div>
-              </div>
-            </div>
-            <div>
-              <div>
-                <p>CSS3</p>
-                <i class="fab fa-css3 fa-3x"></i>
-              </div>
-              <div class="progress style-prog">
-                <div class="progress-bar-striped barra" role="progressbar" style="width: 75%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">75%</div>
-              </div>
-            </div>
-            <div>
-              <div>
-                <p>JS</p>
-                <i class="fab fa-js fa-3x"></i>
-              </div>
-              <div class="progress style-prog">
-                <div class="progress-bar-striped barra" role="progressbar" style="width: 70%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">70%</div>
-              </div>
-            </div>
-            <div>
-              <div>
-                <p>FIREBASE</p>
-              </div>
-              <div class="progress style-prog">
-                <div class="progress-bar-striped barra" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
-              </div>
-            </div>
-            <div>
-              <div>
-                <p>JQUERY</p>
-              </div>
-              <div class="progress style-prog">
-                <div class="progress-bar-striped barra" role="progressbar" style="width: 70%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">70%</div>
-              </div>
-            </div>
+        <div class="col-sm-12 col-sm-12">
+          <h1 class="page-header">Skills</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-2 col-sm-6">
+          <div class="tool">
+            <img src="assets/images/html.png" alt="html5">
+            <h5>HTML 5</h5>
+          </div>
+        </div>
+        <div class="col-sm-2 col-sm-6">
+          <div class="tool">
+            <img src="assets/images/CSS3.png" alt="css3">
+            <h5>CSS 3</h5>
+          </div>
+        </div>
+        <div class="col-sm-4 text-center hide-on-small-only">
+        </div>
+        <div class="col-sm-2 col-sm-6">
+          <div class="tool">
+            <img src="assets/images/bootstrap.png" alt="html5">
+            <h5>Bootstrap</h5>
+
+          </div>
+        </div>
+        <div class="col-sm-2 col-sm-6">
+          <div class="tool">
+            <img src="assets/images/materialize.png" alt="materialize">
+            <h5>Materialize</h5>
           </div>
         </div>
       </div>
-    </section>
-
-    <!-- portfolio -->
-    <section id="proyects" class="bgd shadow" data-speed="5" data-type="background">
-      <div class="container">
-        <h1 class="page-header">Projects</h1>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="thumbnail">
-              <img />
-              <p>
-                <strong>Project 1</strong>
-              </p>
-              <p>description</p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="thumbnail">
-              <img />
-              <p>
-                <strong>Project 2</strong>
-              </p>
-              <p>description</p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="thumbnail">
-              <img />
-              <p>
-                <strong>Project 3</strong>
-              </p>
-              <p>description</p>
-            </div>
+      <div class="row">
+        <div class="col-sm-2 col-sm-6">
+          <div class="tool">
+            <img src="assets/images/Javascript.png" alt="javascript">
+            <h5>JAVASCRIPT</h5>
           </div>
         </div>
-    </section>
+        <div class="col-sm-2 col-sm-6">
+          <div class="tool">
+            <img src="assets/images/jquery.png" alt="jquery">
+            <h5>JQUERY</h5>
 
-    <!-- contact -->
-    <section id="contact">
-      <div class="container-fluid">
-        <h1 class="page-header">Contact me!</h1>
-        <div class="row">
-          <div class="col-sm-5">
-            <p>Contact me and I’ll get back to you within a day.</p>
-            <p>
-              <i class="glyphicon glyphicon-map-marker"></i> Lima, Perú</p>
-            <p>
-              <i class="glyphicon glyphicon-phone"></i> +51 933 367 027</p>
-            <p>
-              <i class="glyphicon glyphicon-envelope"></i> jackelineperez09@gmail.com</p>
           </div>
-          <div class="col-sm-7">
-            <form role="form" id="contact-form">
-              <div class="row">
-                <div class="col-sm-6 form-group">
-                  <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
-                </div>
-                <div class="col-sm-6 form-group">
-                  <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-                </div>
-              </div>
-              <div class="form-group">
-                <textarea class="form-control" id="message" name="message" placeholder="Message" rows="5"></textarea>
-              </div>
-              <button id="form-submit" class="btn btn-success btn-md pull-right" type="submit">Send</button>
-              <div id="form-feedback" class="pull-right text-right">Message sent!
-              </div>
-            </form>
+        </div>
+        <div class="col-sm-2  col-sm-6 col-md-offset-4">
+          <div class="tool">
+            <img src="assets/images/github.svg" alt="bootsatrap">
+            <h5>Github</h5>
+          </div>
+        </div>
+        <div class="col-sm-2 col-sm-6">
+          <div class="tool">
+            <img src="assets/images/firebase.png" alt="html5">
+            <h5>firebase</h5>
           </div>
         </div>
       </div>
-    </section>
-
-    <footer class="container-fluid">
-      <a class="top" href="#home" title="Back to top">
-        <p>
-          <i class="glyphicon glyphicon-chevron-up"></i>
-          <br>Back to top</p>
-      </a>
-      <small>Portfolio designed by
-        <a href="https://jackelinegcp.github.io/" target="_blank" title="Check me out">Gessenia Canales</a> using Bootstrap
-      </small>
-    </footer>
     </div>
-  </div>
+  </section>
+
+  <!-- portfolio -->
+  <section id="proyects" class="bgd shadow" data-speed="5" data-type="background">
+    <div class="container">
+      <h1 class="page-header text-center">Projects</h1>
+      <div class="row">
+        <!--  <div class="col-md-4">
+          <div class="thumbnail">
+            <img src="assets/images/homem.png" alt="home" />
+            <p>
+              <strong>Red Social</strong>
+            </p>
+            <p class="text-justify">La página GL Network es una red social donde buscamos hacer networking entre emprendedores e inversionistas</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <img />
+            <p>
+              <strong>Project 2</strong>
+            </p>
+            <p>description</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <img />
+            <p>
+              <strong>Project 3</strong>
+            </p>
+            <p>description</p>
+          </div>
+        </div> -->
+      </div>
+  </section>
+
+  <!-- section contact -->
+  <section id="contact" class="bgd shadow" data-speed="5" data-type="background">
+    <div class="container">
+      <h1 class=" text-center page-header">Contact me</h1>
+      <div class="row text-center">
+        <div class="col-sm-12">
+          <p>Contact me and I’ll get back to you within a day.</p>
+          <p>
+            <i class="glyphicon glyphicon-map-marker"></i> Lima, Perú</p>
+          <p>
+            <i class="glyphicon glyphicon-phone"></i> +51 933 367 027</p>
+          <p>
+            <i class="glyphicon glyphicon-envelope"></i> jackelineperez09@gmail.com</p>
+        </div>
+        <div class="text-center">
+          <a class="btn btn-success btn-lg" href="assets/docs/CV-Jackeline-Canales .pdf" download="Canales-CV">See CV
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="container bgd shadow" data-speed="5" data-type="background">
+    <div class="roe">
+      <div class="col-sm-12 text-center">
+        <a class="top" href="#home" title="Back to top">
+          <p>
+            <i class="glyphicon glyphicon-chevron-up"></i>
+            <br>Back to top</p>
+        </a>
+        <small>Portfolio designed by
+          <a href="https://jackelinegcp.github.io/" target="_blank" title="Check me out">Gessenia Canales</a>
+        </small>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>
