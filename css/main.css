@@ -202,11 +202,6 @@ section .container {
 
 
 /*secciotn poryects*/
-
-section#proyects {
-  background-image: url(http://www.agileplan.io/blog/wp-content/uploads/2017/01/Plataforma-Low-Code.jpg);
-}
-
 section#proyects .container h1,
 section#proyects .container h3 {
   color: white;
